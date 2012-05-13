@@ -62,7 +62,7 @@
 (require 'thingatpt)
 (require 'url)
 (require 'json)
-(load "javascript.el") ;; bug in this package means we can't require it
+(require 'javascript-mode)
 (require 'mm-util) ;; for replace-regexp-in-string
 
 (defvar relax-host "127.0.0.1")
